@@ -15,7 +15,7 @@ Log in repos.ros.org as the rosbuild user
 
 go to ~/reprepro_updater/scripts and pull the master branch
 
-run the setup_repo.py script: `python /home/rosbuild/reprepro_updater/scripts/setup_repo.py /var/www/repos/ros_bootstrap/ -c`
+run the setup_repo.py script: `python /home/jenkins-agent/git/reprepro_updater/scripts/setup_repo.py /var/www/repos/ros_bootstrap/ -c`
 
 Done! You can confirm that the repository has been created by opening http://repos.ros.org/repos/ros_bootstrap/dists/ in your browser
 

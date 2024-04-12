@@ -2,8 +2,8 @@ For importing armhf there are two parts. One is in the config repo for upstream 
 
 to pull in the packages austin generated:
 
-`python /home/rosbuild/reprepro_updater/scripts/prepare_sync.py /var/www/repos/ros-shadow-fixed/ubuntu -y /home/rosbuild/reprepro_updater/config/namniart_armhf.yaml`
-`python /home/rosbuild/reprepro_updater/scripts/prepare_sync.py /var/www/repos/ros/ubuntu -y /home/rosbuild/reprepro_updater/config/namniart_armhf.yaml`
+`python /home/jenkins-agent/git/reprepro_updater/scripts/prepare_sync.py /var/www/repos/ros-shadow-fixed/ubuntu -y /home/jenkins-agent/git/reprepro_updater/config/namniart_armhf.yaml`
+`python /home/jenkins-agent/git/reprepro_updater/scripts/prepare_sync.py /var/www/repos/ros/ubuntu -y /home/jenkins-agent/git/reprepro_updater/config/namniart_armhf.yaml`
 
 
 
